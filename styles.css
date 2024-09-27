@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  display: flex;
+  gap: 25px 15px;
+  flex-wrap: wrap;
+}
+
+:root {
+  font-size: 62,5%;
+}
+
+.icons-aside {
+  width: 15px;
+  height: 15px;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+aside {
+  background-color: #f54804;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px 10px;
+}
+.myInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main {
+  width: auto;
+  flex: 1 1 ;
+  background-color: #0ff;
+}
+
+#imgCard {
+  width: 100px;
+  background-color: #eab308;
+}
